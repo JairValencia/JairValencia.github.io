@@ -1,0 +1,180 @@
+body{
+    background: no-repeat;
+    background-image: url("./fondo.jpg");
+    background-size:cover;
+    margin: 0%;
+}
+.titulo{
+    background-color: red;
+    filter: opacity(60%);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    text-align: center;
+}
+.completo{
+    display: flex;
+    align-items: center;
+    margin-left:  15%;
+    width: 70%;
+}
+.pokedex{
+    background-color: rgb(211, 2, 2);
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.centro{
+    background-color: black;
+    border-radius: 5px;
+    width: 30px;
+    height: 570px;
+}
+.parte1-1{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.p1-1{
+    width: 80px;
+    height: 80px;
+    background: blue;
+    border:solid;
+    border-color: white;
+    border-radius: 55px;
+}
+.p1-2,.p1-3,.p1-4{
+    width: 25px;
+    height: 25px;
+    border: solid;
+    border-color: white;
+    border-radius: 55px;
+}
+.p1-2{
+    background: red;
+}
+.p1-3{
+    background-color: yellow;
+}
+.p1-4{
+    background-color: green;
+}
+.imagen{
+    background: no-repeat;
+    background-image: url("./pokemonlogo.png");
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+
+}
+.parte2{
+    width: 60%;
+    margin: auto;
+    background-color: #8995aa;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+}
+.cuadro{
+    background-color: rgb(0, 162, 255);
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border:solid;
+}
+::placeholder {
+    color: white;
+    font-size: 1em;
+  }
+.recora{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+.punto{
+    background-color: rgba(255, 0, 0, 0.74);
+    width: 25px;
+    height: 25px;
+    border-radius: 55px;
+    margin: 5px;
+}
+.rallas{
+    margin-left: auto;
+    margin-top: 5px;
+
+}
+.rall{
+    background-color: black;
+    width: 25px;
+    height: 4px;
+    margin-top: 2px;
+}
+.parte3{
+    background-color: aqua;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid;
+    padding: 10px;
+    display: flex;
+}
+.buscar{
+margin-left: 10%;
+}
+.boton{
+    background-color: rgb(233, 212, 24);
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.text{
+    background-color: rgb(6, 173, 6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.flechas{
+    background: no-repeat;
+    background-image: url("./flechas.png");
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+}
+.estatistic,.hp{
+    height: 23px;
+    padding: 10px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 5px;
+}
+.color1{
+    color: white;
+}
+.color2{
+    color:  #8995aa;
+}
+footer{
+    background-color: #eef3ff;
+}
+.grupo-2{
+    display: flex;
+}
+.box3{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.box4{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
